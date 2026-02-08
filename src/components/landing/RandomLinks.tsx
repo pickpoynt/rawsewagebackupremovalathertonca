@@ -2,20 +2,20 @@ import { ExternalLink } from "lucide-react";
 
 const links = [
   {
-    name: "Raleigh Water Damage",
-    url: "https://raleighwaterdamage.netlify.app/"
+    name: "Tacoma Plumbing Network",
+    url: "#"
   },
   {
-    name: "Cary Repipe Specialists",
-    url: "https://repipe-specialists-cary.netlify.app/"
+    name: "Pierce County Drain Pros",
+    url: "#"
   },
   {
-    name: "North Raleigh Plumber",
-    url: "https://plumbernearmeraleigh.netlify.app/"
+    name: "PNW Sewer Services",
+    url: "#"
   },
   {
-    name: "Apex Home Restoration",
-    url: "https://homerestorationapex.netlify.app/"
+    name: "Washington Home Care",
+    url: "#"
   },
 ];
 
@@ -25,14 +25,12 @@ const RandomLinks = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <span className="text-slate-400 font-medium text-sm lg:mr-4 uppercase tracking-widest text-center w-full lg:w-auto mb-4 lg:mb-0">
-            North Carolina's Premier Home Network
+            Washington's Premier Home Network
           </span>
           {links.map((link, index) => (
             <a
               key={index}
               href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
               className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300"
             >
               <span className="font-bold text-sm tracking-tight">{link.name}</span>
@@ -46,5 +44,6 @@ const RandomLinks = () => {
     </section>
   );
 };
+
 
 export default RandomLinks;

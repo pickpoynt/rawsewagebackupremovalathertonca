@@ -2,52 +2,52 @@ import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, 
 
 const services = [
   {
-    icon: Search,
-    title: "Poly-B Leak Detection",
-    description: "Using precision acoustic and thermal testing to locate silent leaks in Polybutylene lines before they cause catastrophic Wake County floods.",
-    link: "#polyb-info"
+    icon: Zap,
+    title: "Main Sewer Line Jetting",
+    description: "Our 4000 PSI hydro jetters blast through the most stubborn Pierce County sewer blockages, restoring full flow to your Tacoma property.",
+    link: "#hydro-jetting-info"
   },
   {
     icon: Hammer,
-    title: "Whole House Repipe",
-    description: "Removing all failing grey Polybutylene pipes and replacing them with premium PEX-A, complete with dry-wall repair and system testing.",
-    link: "#polyb-info"
-  },
-  {
-    icon: Shield,
-    title: "PEX Pipe Upgrades",
-    description: "Upgrading your Raleigh home to modern PEX-A piping, known for its flexibility, freeze resistance, and 50+ year life expectancy.",
-    link: "#polyb-info"
-  },
-  {
-    icon: AlertTriangle,
-    title: "Emergency Pipe Burst",
-    description: "24/7 rapid response for Poly-B blowouts. We stabilize the leak and provide immediate options for partial or full-house restoration.",
-    link: "#polyb-info"
-  },
-  {
-    icon: ClipboardList,
-    title: "Insurance Compliance",
-    description: "Many Raleigh insurance providers refuse coverage for homes with Poly-B. We provide certified documentation of your repipe for your insurer.",
-    link: "#polyb-info"
-  },
-  {
-    icon: Activity,
-    title: "Fixture Integration",
-    description: "Ensuring your new PEX system integrates perfectly with your existing Raleigh kitchen and bathroom fixtures for optimal water pressure.",
-    link: "#polyb-info"
-  },
-  {
-    icon: Zap,
-    title: "Main Line Replacement",
-    description: "Expert replacement of exterior Polybutylene main water lines that connect your Raleigh home to the municipal water source.",
-    link: "#polyb-info"
+    title: "Root Intrusion Removal",
+    description: "Specialized rotating nozzles cut through intrusive tree roots in older Tacoma neighborhoods without damaging your original pipes.",
+    link: "#hydro-jetting-info"
   },
   {
     icon: Droplets,
-    title: "Scale & Sediment Flush",
-    description: "Full system flushing after your repipe to ensure your Raleigh property has crystal clear water and no debris from old pipe fragments.",
-    link: "#polyb-info"
+    title: "Commercial Grease Scouring",
+    description: "Keep your Tacoma restaurant or commercial kitchen in compliance with high-pressure grease trap and drain line scouring.",
+    link: "#hydro-jetting-info"
+  },
+  {
+    icon: AlertTriangle,
+    title: "Emergency Clog Response",
+    description: "24/7 rapid response for total sewer backups in Tacoma. We stabilize the situation and clear the line fast to prevent water damage.",
+    link: "#hydro-jetting-info"
+  },
+  {
+    icon: Search,
+    title: "Video Sewer Inspection",
+    description: "We use high-definition cameras to inspect your Tacoma sewer lines before and after jetting to ensure a 100% clear result.",
+    link: "#hydro-jetting-info"
+  },
+  {
+    icon: Waves,
+    title: "Storm Drain Cleaning",
+    description: "Prevent flooding during Tacoma's heavy rainy season by ensuring your exterior storm drains are clear of silt and debris.",
+    link: "#hydro-jetting-info"
+  },
+  {
+    icon: Shield,
+    title: "Pipe Descaling",
+    description: "Removing years of scale and iron buildup from historic Tacoma cast iron pipes, extending their life and improving water pressure.",
+    link: "#hydro-jetting-info"
+  },
+  {
+    icon: ClipboardList,
+    title: "Maintenance Plans",
+    description: "Scheduled hydro jetting for Tacoma businesses and homeowners to prevent emergency backups and maintain healthy plumbing.",
+    link: "#hydro-jetting-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Raleigh's Specialized Polybutylene Services
+            Tacoma's Specialized Hydro Jetting Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Don't trust generic plumbers with a complex whole-house repipe. Our Raleigh team specializes specifically in the safe removal and replacement of Poly-B systems.
+            Don't trust generic plumbers with a stubborn blockage. Our Tacoma team specializes specifically in industrial-strength high-pressure water jetting.
           </p>
         </div>
 
@@ -93,3 +93,4 @@ const Services = () => {
 };
 
 export default Services;
+

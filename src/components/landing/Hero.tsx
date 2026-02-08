@@ -10,23 +10,23 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Polybutylene pipe replacement Raleigh
-      <span className="block text-blue-400 mt-2">Certified Whole-House Repipe Specialists</span>
+      Hydro jetting services Tacoma WA
+      <span className="block text-blue-400 mt-2">Tacoma's Heavy-Duty Sewer & Drain Specialists</span>
     </>
   ),
-  subtitle = "Wake County homes built between 1978 and 1995 often contain Polybutylene grey pipes—a ticking time bomb for water damage. We provide specialized, non-invasive replacement using premium PEX systems, restoring the structural integrity and insurance eligibility of your Raleigh property.",
-  image = "https://images.unsplash.com/photo-1542013919164-94427b3fa437?auto=format&fit=crop&q=80"
+  subtitle = "Stubborn clogs, intrusive roots, and grease buildup don't stand a chance. Our industrial-strength 4000 PSI hydro jetting technology scours your pipes clean, restoring full flow to your Tacoma home or business with zero chemicals and total precision.",
+  image = "https://images.unsplash.com/photo-1621905252507-b354bc2addcc?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Unique Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={image} alt="Raleigh Polybutylene Pipe Replacement" className="w-full h-full object-cover" />
-        {/* UNIQUE OVERLAY IMAGE: Using a technical blueprint/schematic architectural overlay */}
+        <img src={image} alt="Tacoma Hydro Jetting Services" className="w-full h-full object-cover" />
+        {/* UNIQUE OVERLAY IMAGE: Using a high-pressure water vector/technical grid overlay */}
         <div className="absolute inset-0 opacity-40 mix-blend-multiply border-slate-900 border-4">
           <img
-            src="https://images.unsplash.com/photo-1503387762-592adee11292?auto=format&fit=crop&q=80"
-            alt="Technical Architecture Schematic Overlay"
+            src="https://images.unsplash.com/photo-1504333638930-c8787321eee0?auto=format&fit=crop&q=80"
+            alt="Technical Pressure Schematic Overlay"
             className="w-full h-full object-cover"
           />
         </div>
@@ -37,7 +37,7 @@ const Hero = ({
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 mb-8 animate-fade-in shadow-lg shadow-blue-500/5">
             <ShieldCheck className="w-4 h-4" />
-            <span className="text-sm font-bold uppercase tracking-wider">Raleigh's Preferred Repipe Team</span>
+            <span className="text-sm font-bold uppercase tracking-wider">Tacoma's Preferred Jetting Team</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 animate-fade-in leading-[1.1]">
@@ -57,7 +57,7 @@ const Hero = ({
             </Button>
             <Button size="lg" variant="outline" className="border-slate-700 text-white hover:bg-slate-800 transition-all h-14 px-8 text-lg" asChild>
               <a href="#services" className="flex items-center gap-2">
-                Our Repipe Process
+                Our Jetting Process
                 <ArrowRight className="w-5 h-5" />
               </a>
             </Button>
@@ -68,19 +68,19 @@ const Hero = ({
               <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
                 <Hammer className="w-6 h-6 text-blue-400" />
               </div>
-              <span className="text-white font-medium">Whole House Repipe</span>
+              <span className="text-white font-medium">4000 PSI Power</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
                 <Clock className="w-6 h-6 text-blue-400" />
               </div>
-              <span className="text-white font-medium">3-Day Completion</span>
+              <span className="text-white font-medium">24/7 Response</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
                 <ShieldCheck className="w-6 h-6 text-blue-400" />
               </div>
-              <span className="text-white font-medium">Lifetime Warranty</span>
+              <span className="text-white font-medium">100% Guaranteed</span>
             </div>
           </div>
         </div>
@@ -88,5 +88,6 @@ const Hero = ({
     </section>
   );
 };
+
 
 export default Hero;

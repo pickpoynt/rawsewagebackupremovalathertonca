@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import PolyBInfo from "@/components/landing/PolyBInfo";
+import HydroJettingInfo from "@/components/landing/HydroJettingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Polybutylene pipe replacement Raleigh | Raleigh Polybutylene Experts: Full Repipe Specialists</title>
-        <meta name="description" content="Expert Polybutylene pipe replacement Raleigh. Professional whole-house repiping, PEX upgrades, and Poly-B leak prevention. Licensed Raleigh plumbers serving Wake County. Call (877) 792-1410 today!" />
-        <meta name="keywords" content="Polybutylene pipe replacement Raleigh, Poly-B replacement Raleigh NC, house repipe Raleigh, PEX pipe upgrade Raleigh, grey pipe replacement Wake County" />
-        <link rel="canonical" href="https://polybutylene-pipe-replacement-raleigh.com/" />
+        <title>Hydro jetting services Tacoma WA | Tacoma Hydro Jetting Experts: Heavy-Duty Sewer & Drain Specialists</title>
+        <meta name="description" content="Expert hydro jetting services Tacoma WA. Professional high-pressure sewer line cleaning, main line scouring, and root removal. Licensed Tacoma plumbers serving Pierce County. Call (877) 792-1410 today!" />
+        <meta name="keywords" content="Hydro jetting services Tacoma WA, sewer jetting Tacoma, drain cleaning Tacoma WA, high pressure pipe cleaning Pierce County, main line scouring Tacoma" />
+        <link rel="canonical" href="https://tacoma-hydro-jetting.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Raleigh Polybutylene Experts",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Tacoma Hydro Jetting Experts",
+            "image": "https://images.unsplash.com/photo-1504333638930-c8787321eee0?auto=format&fit=crop&q=80",
             "telephone": "+1-877-792-1410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Raleigh",
-              "addressRegion": "NC",
-              "postalCode": "27601",
+              "addressLocality": "Tacoma",
+              "addressRegion": "WA",
+              "postalCode": "98402",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "35.7796",
-              "longitude": "-78.6382"
+              "latitude": "47.2529",
+              "longitude": "-122.4443"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Raleigh, North Carolina"
+              "name": "Tacoma, Washington"
             },
             "priceRange": "$$$",
-            "description": "Professional polybutylene pipe replacement and whole-house repiping services in Raleigh, NC. We specialize in replacing failing grey pipes with high-quality PEX."
+            "description": "Professional hydro jetting and high-pressure sewer cleaning services in Tacoma, WA. We specialize in clearing tough blockages and maintaining healthy drain systems."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Polybutylene Pipe Replacement",
+            "serviceType": "Hydro Jetting Sewer Cleaning",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Raleigh Polybutylene Experts",
+              "name": "Tacoma Hydro Jetting Experts",
               "telephone": "+1-877-792-1410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Raleigh, North Carolina"
+              "name": "Tacoma, Washington"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Repipe Services",
+              "name": "Sewer & Drain Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Whole House Poly-B Replacement"
+                    "name": "Main Sewer Line Hydro Jetting"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "PEX Piping Upgrade"
+                    "name": "Root Intrusion Removal"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Polybutylene Leak Repair"
+                    "name": "Commercial Grease Trap Jetting"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Plumbing System Documentation"
+                    "name": "Video Sewer Inspection"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Polybutylene pipe replacement Raleigh | Raleigh Polybutylene Experts" />
-        <meta property="og:description" content="Expert Poly-B replacement in Raleigh, NC. Professional whole-house repiping using modern PEX. Call (877) 792-1410 for a free estimate." />
+        <meta property="og:title" content="Hydro jetting services Tacoma WA | Tacoma Hydro Jetting Experts" />
+        <meta property="og:description" content="Expert high-pressure sewer cleaning in Tacoma, WA. Professional drain scouring and root removal. Call (877) 792-1410 for a free estimate." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://polybutylene-pipe-replacement-raleigh.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://tacoma-hydro-jetting.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013919164-94427b3fa437?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              Polybutylene pipe replacement Raleigh
-              <span className="block text-blue-400 mt-2">Wake County's Repipe Authority: PEX Upgrades</span>
+              Hydro jetting services Tacoma WA
+              <span className="block text-blue-400 mt-2">Tacoma's Heavy-Duty Sewer & Drain Specialists</span>
             </>
           }
-          subtitle="Is your Raleigh home hiding a ticking time bomb? Polybutylene pipes (the notorious grey pipes) are prone to sudden failure. We specialize in non-invasive, whole-house repiping with premium PEX-A, restoring your home's safety and value with minimal disruption."
-          image="https://images.unsplash.com/photo-1542013919164-94427b3fa437?auto=format&fit=crop&q=80"
+          subtitle="Don't let stubborn clogs slow down your Tacoma home or business. Our industrial-strength hydro jetting technology blasts through roots, grease, and years of buildup, restoring your pipes to like-new flow in minutes. Fast, clean, and 100% effective."
+          image="https://images.unsplash.com/photo-1621905252507-b354bc2addcc?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <PolyBInfo />
+        <HydroJettingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
@@ -136,3 +136,4 @@ const Index = () => {
 };
 
 export default Index;
+

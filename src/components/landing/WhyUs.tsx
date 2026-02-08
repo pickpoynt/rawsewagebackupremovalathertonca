@@ -3,41 +3,41 @@ import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, Chec
 const reasons = [
   {
     icon: Award,
-    title: "Triangle Repipe Experts",
-    description: "We have successfully repiped thousands of homes in Raleigh, Cary, and Apex, specifically focusing on the peculiar failure points of Poly-B."
+    title: "Tacoma's Jetting Experts",
+    description: "We are the go-to specialists for high-pressure sewer cleaning in Tacoma, serving neighborhoods from the North End to South Tacoma with precision."
   },
   {
     icon: Microscope,
-    title: "Non-Invasive Process",
-    description: "We use surgical precision to make minimal drywall cuts, ensuring your Raleigh home remains livable throughout the 3-day repipe process."
+    title: "Diagnostic Video Entry",
+    description: "Every jetting job includes a before-and-after video inspection to ensure your Tacoma sewer line is 100% clear of all grease and roots."
   },
   {
     icon: Building2,
-    title: "PEX-A Only",
-    description: "We only use premium PEX-A piping, the most durable and flexible option available, ensuring your Raleigh investment is protected for decades."
+    title: "Industrial Grade Tech",
+    description: "We use top-tier 4000 PSI hydro jetting equipment that is far more effective than standard snaking or chemical cleaners used by generic plumbers."
   },
   {
     icon: ClipboardCheck,
-    title: "Permit & Inspection Ready",
-    description: "Every job is fully permitted through the City of Raleigh or Wake County, with a final plumbing inspection required for your peace of mind."
+    title: "Licensed & Insured",
+    description: "Our Tacoma team is fully licensed and insured in Washington State, ensuring your property is protected and the job is done to local codes."
   },
   {
     icon: Shield,
-    title: "Insurance Approved",
-    description: "Our certified repipe documentation is recognized by all major North Carolina insurers, often lead to significant premium reductions."
+    title: "Environmentally Safe",
+    description: "Our process uses only high-pressure water. No harsh chemicals are introduced into your pipes or the Tacoma soil, keeping the Puget Sound safe."
   },
   {
     icon: MapPin,
-    title: "Local Raleigh Focus",
-    description: "We are born and raised Raleigh locals. From North Hills to Brier Creek, we know the local codes and common neighborhood builds."
+    title: "Born & Raised in Tacoma",
+    description: "We are proud Tacoma locals. Whether you're in Proctor or Hilltop, we know the specific plumbing challenges of our city's historic homes."
   }
 ];
 
 const stats = [
-  { number: "2500+", label: "Raleigh Repipes" },
-  { number: "3-Days", label: "Average Time" },
-  { number: "100%", label: "PEX-A Used" },
-  { number: "Licensed", label: "In NC" }
+  { number: "1500+", label: "Tacoma Jobs" },
+  { number: "4000+", label: "PSI Pressure" },
+  { number: "100%", label: "Chemical Free" },
+  { number: "24/7", label: "Emergency Ser." }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Raleigh's Highest Rated Repipe Specialists
+            Tacoma's Highest Rated Jetting Specialists
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Choose the team that Raleigh homeowners trust. We specialize in turning a stressful pipe failure into a permanent, high-value plumbing upgrade.
+            Choose the team that Tacoma homeowners trust. We specialize in turning a stubborn sewer backup into a permanent, high-flow solution.
           </p>
         </div>
 
@@ -92,3 +92,4 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+

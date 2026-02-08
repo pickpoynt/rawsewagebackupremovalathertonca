@@ -1,56 +1,56 @@
 import { Zap, Shield, Wrench, Settings } from "lucide-react";
 
-const cheyenneFactors = [
+const tacomaFactors = [
   {
     icon: Zap,
-    title: "Wyoming Water Mineral Content",
-    description: "Cheyenne's water supply from natural aquifers and snowmelt contains high mineral concentrations that lead to rapid pipe buildup and clogs requiring professional hydro jetting services."
+    title: "Pierce County Mineral Buildup",
+    description: "Tacoma's water system can carry minerals that, over time, create significant scaling in older cast iron pipes common in the North End and Proctor District."
   },
   {
     icon: Shield,
-    title: "Harsh Winter Conditions",
-    description: "Wyoming's extreme cold temperatures cause pipes to freeze and burst, creating blockages that need high-pressure hydro jetting to clear ice and debris effectively."
+    title: "Heavy Rainfall Entry",
+    description: "Tacoma's frequent Pacific Northwest rains can wash debris and silt into exterior lines, creating dense blockages that standard snaking can't clear."
   },
   {
     icon: Wrench,
-    title: "Aging Infrastructure",
-    description: "Many Cheyenne homes and businesses have older plumbing systems that are prone to buildup, tree root intrusion, and sediment accumulation requiring regular hydro jetting maintenance."
+    title: "Tree Root Challenges",
+    description: "The lush greenery of neighborhoods like Fircrest and University Place means aggressive tree roots often penetrate sewer lines seeking moisture."
   },
   {
     icon: Settings,
-    title: "Commercial Requirements",
-    description: "Restaurants, hotels, and businesses in Cheyenne need reliable hydro jetting services to maintain compliance with health codes and prevent costly plumbing emergencies."
+    title: "Commercial Kitchen Grease",
+    description: "Tacoma's vibrant restaurant scene from Point Ruston to Hilltop relies on regular hydro jetting to keep grease traps and drains compliant and clear."
   }
 ];
 
 const hydroJettingBenefits = [
   {
-    title: "High-Pressure Pipe Cleaning",
-    description: "Our advanced hydro jetting equipment uses up to 4000 PSI water pressure to completely clear blockages, buildup, and debris from your pipes."
+    title: "4000 PSI Precision Cleaning",
+    description: "Our state-of-the-art jetting equipment uses immense water pressure to scour pipe walls clean, removing 100% of grease, sludge, and debris."
   },
   {
-    title: "Root Intrusion Removal",
-    description: "Specialized hydro jetting nozzles effectively remove tree roots and organic buildup that commonly affect Wyoming properties."
+    title: "Non-Invasive Root Removal",
+    description: "Hydro jetting effectively cuts through intrusive tree roots without the need for costly and destructive digging in your Tacoma yard."
   },
   {
-    title: "Preventative Maintenance",
-    description: "Regular hydro jetting prevents major clogs and extends the life of your plumbing system in Cheyenne's challenging conditions."
+    title: "Long-Term Pipe Health",
+    description: "By removing all buildup, hydro jetting prevents the 'recurring clog' cycle and extends the life of your plumbing system significantly."
   },
   {
-    title: "Eco-Friendly Solution",
-    description: "Uses only high-pressure water without chemicals, making it safe for your family, pets, and Cheyenne's environment."
+    title: "Safe for Tacoma's Environment",
+    description: "We use only pure, pressurized water—no harsh chemicals that could harm the Puget Sound or your local landscape."
   }
 ];
 
 const serviceAreas = [
-  "Cheyenne, WY",
-  "Laramie, WY",
-  "Casper, WY",
-  "Gillette, WY",
-  "Rock Springs, WY",
-  "Sheridan, WY",
-  "Green River, WY",
-  "Evanston, WY"
+  "North End Tacoma",
+  "South Tacoma",
+  "University Place, WA",
+  "Fircrest, WA",
+  "Ruston, WA",
+  "Puyallup, WA",
+  "Lakewood, WA",
+  "Gig Harbor, WA"
 ];
 
 export default function HydroJettingInfo() {
@@ -59,11 +59,11 @@ export default function HydroJettingInfo() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Professional Hydro Jetting Services in Cheyenne
+            Professional Hydro Jetting Services in Tacoma
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Advanced high-pressure water jetting solutions for residential and commercial properties throughout 
-            Cheyenne and Wyoming. Our expert technicians use state-of-the-art equipment to clear even the toughest 
+            Advanced high-pressure water jetting solutions for residential and commercial properties throughout
+            Tacoma and Pierce County. Our expert technicians use state-of-the-art equipment to clear even the toughest
             pipe blockages safely and effectively.
           </p>
         </div>
@@ -71,10 +71,10 @@ export default function HydroJettingInfo() {
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <div>
             <h3 className="text-2xl font-heading font-bold text-slate-900 mb-6">
-              Why Cheyenne Properties Need Hydro Jetting
+              Why Tacoma Properties Need Hydro Jetting
             </h3>
             <div className="space-y-4">
-              {cheyenneFactors.map((factor, index) => (
+              {tacomaFactors.map((factor, index) => (
                 <div key={index} className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
                   <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0 mt-1">
                     <factor.icon className="w-5 h-5 text-blue-600" />
@@ -105,7 +105,7 @@ export default function HydroJettingInfo() {
 
         <div className="bg-white rounded-xl p-8 shadow-lg">
           <h3 className="text-2xl font-heading font-bold text-slate-900 mb-6 text-center">
-            Service Areas We Cover
+            Tacoma & Pierce County Service Areas
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {serviceAreas.map((area, index) => (
@@ -116,7 +116,7 @@ export default function HydroJettingInfo() {
           </div>
           <div className="mt-6 text-center">
             <p className="text-slate-600">
-              Serving all of Wyoming with professional hydro jetting services. 
+              Serving all of Tacoma with professional hydro jetting services.
               Call (877) 792-1410 for immediate assistance.
             </p>
           </div>

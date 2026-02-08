@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How do I know if my Raleigh home has Polybutylene pipes?",
-    answer: "Step 1: Look at the pipes coming into your water heater or main shut-off. If they are grey, black, or blue plastic (not copper or PEX), they are likely Poly-B. Step 2: Check your home's build date—if it's between 1978 and 1995 in Raleigh, Poly-B was incredibly common."
+    question: "What exactly is hydro jetting?",
+    answer: "Hydro jetting is a method of cleaning sewer and drain lines using high-pressure water (up to 4000 PSI). Unlike standard snaking, which only pokes a hole through a clog, jetting scours the entire internal surface of the pipe, removing grease, scale, and roots completely."
   },
   {
-    question: "Why are Polybutylene pipes considered a disaster in Raleigh?",
-    answer: "Polybutylene reacts with the oxidants found in Raleigh's municipal water supply, causing it to flake and become brittle internally. This 'unseen' degradation leads to sudden, massive pipe bursts that can flood entire floors in minutes."
+    question: "Is hydro jetting safe for my older Tacoma home's pipes?",
+    answer: "Yes, but only when performed by professionals. We start every job with a video inspection to ensure your pipes (whether cast iron, clay, or PVC) are structurally sound enough for the pressure. It's often safer than using corrosive chemical cleaners."
   },
   {
-    question: "Will my Raleigh insurance company cover Poly-B leaks?",
-    answer: "Many North Carolina insurance carriers now include 'Polybutylene exclusions' in their policies. Some will refuse to renew policies unless a full repipe is completed and certified by a licensed Raleigh plumber. We provide the necessary documentation for your insurer."
+    question: "How often should I have my Tacoma sewer lines jetted?",
+    answer: "For residential properties with historic trees, we recommend every 18-24 months. For Tacoma restaurants and commercial kitchens, we recommend every 3-6 months to prevent grease-related backups and health code violations."
   },
   {
-    question: "How long does a whole-house repipe take in Raleigh?",
-    answer: "Our specialized Raleigh repipe team can typically complete a whole-house project in 3 to 4 days. This includes the plumbing replacement, system testing, and master-level drywall patching and texturing."
+    question: "Can hydro jetting remove tree roots in my Tacoma yard?",
+    answer: "Absolutely. Our specialized rotating jetter nozzles are designed to cut through intrusive tree roots that have penetrated your sewer line. It's an effective, non-invasive alternative to digging up your landscape."
   },
   {
-    question: "Is PEX-A the best choice for Raleigh repipes?",
-    answer: "Yes. PEX-A is the gold standard for repiping in Raleigh. It is flexible, which means fewer joints (where most leaks occur), and it can expand up to 3x its size, making it highly resistant to damage during rare Raleigh hard freezes."
+    question: "How is hydro jetting better than a standard drain snake?",
+    answer: "A snake is a temporary fix—it creates a small opening but leaves the rest of the buildup behind. Hydro jetting restores the pipe to nearly 100% of its original flow capacity by removing all sludge and debris."
   },
   {
-    question: "Do I have to leave my home during the Raleigh repipe process?",
-    answer: "No. Our Raleigh team works in zones. You will have full water access every evening, and we ensure your home is kept clean and livable with extensive floor and furniture shielding."
+    question: "Will the Tacoma rainy season affect my sewer lines?",
+    answer: "Yes. Heavy rains can put extra pressure on aging sewer systems and wash silt into exterior lines. Regular hydro jetting ensures your drains can handle the increased volume and prevents basement flooding during PNW storms."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Raleigh Poly-B FAQ
+            Tacoma Hydro Jetting FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Critical expertise for Raleigh homeowners dealing with Polybutylene plumbing.
+            Expert answers for Tacoma homeowners and businesses regarding high-pressure drain cleaning.
           </p>
         </div>
 
@@ -63,3 +63,4 @@ const FAQ = () => {
 };
 
 export default FAQ;
+
