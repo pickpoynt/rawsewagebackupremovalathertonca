@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import ToxicBlackMoldInfo from "@/components/landing/ToxicBlackMoldInfo";
+import BasementMoldTestingInfo from "@/components/landing/BasementMoldTestingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,19 +15,20 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Toxic black mold removal Ambler | Ambler Toxic Mold Specialists</title>
-        <meta name="description" content="Toxic black mold removal Ambler. Professional remediation for Stachybotrys chartarum, basement mold removal, and HEPA air scrubbing in Montgomery County. Call (380) 266-0944!" />
-        <meta name="keywords" content="toxic black mold removal Ambler, black mold remediation Ambler PA, Montgomery County mold inspector, Stachybotrys removal Ambler" />
-        <link rel="canonical" href="https://ambler-toxic-mold.com/" />
+        <title>Basement mold testing Ambler | Ambler Basement Mold Lab</title>
+        <meta name="description" content="Basement mold testing Ambler. Professional air quality testing, spore counting, and hidden moisture mapping for Ambler basements. Certified lab results. Call (380) 266-0944!" />
+        <meta name="keywords" content="Basement mold testing Ambler, mold inspector Ambler PA, basement air quality testing Ambler, Montgomery County mold testing" />
+        <link rel="canonical" href="https://ambler-mold-testing.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Ambler Toxic Mold Specialists",
+            "name": "Ambler Basement Mold Lab",
             "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
+            "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Ambler",
@@ -45,8 +46,7 @@ const Index = () => {
               "@type": "Place",
               "name": "Ambler, Pennsylvania"
             },
-            "priceRange": "$$$",
-            "description": "Certified toxic black mold removal and Stachybotrys remediation in Ambler, PA. Specialized in negative air containment and HEPA air scrubbing."
+            "description": "Certified basement mold testing and indoor air quality analysis in Ambler, PA. Specialized in moisture mapping and laboratory spore identification."
           })}
         </script>
 
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Toxic Black Mold Removal",
+            "serviceType": "Basement Mold Testing",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Ambler Toxic Mold Specialists",
+              "name": "Ambler Basement Mold Lab",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
@@ -67,34 +67,34 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Mold Remediation Services",
+              "name": "Mold Testing Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Toxic Black Mold Extraction"
+                    "name": "Basement Air Spore Sampling"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Negative Air Pressure Containment"
+                    "name": "Infrared Moisture Mapping"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HEPA Air Purification"
+                    "name": "Hidden Mold Diagnostics"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Mycotoxin Remediation"
+                    "name": "Independent Laboratory Analysis"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Toxic black mold removal Ambler | Ambler Toxic Mold Specialists" />
-        <meta property="og:description" content="Professional toxic black mold removal in Ambler, PA. 24/7 emergency remediation and HEPA air scrubbing. Call (380) 266-0944 for an inspection." />
+        <meta property="og:title" content="Basement mold testing Ambler | Ambler Basement Mold Lab" />
+        <meta property="og:description" content="Scientific basement mold testing in Ambler, PA. Certified inspectors and lab results for hidden moisture and spore counts. Call (380) 266-0944." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ambler-toxic-mold.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://ambler-mold-testing.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1590644365607-1c5a519a7a37?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              Toxic black mold removal Ambler
-              <span className="block text-red-500 mt-2 text-2xl md:text-4xl">Ambler Toxic Mold Specialists: Bio-Hazard Remediation</span>
+              Basement mold testing Ambler
+              <span className="block text-blue-500 mt-2 text-2xl md:text-4xl">Ambler Basement Mold Lab: Precision Diagnostics</span>
             </>
           }
-          subtitle="Don't compromise your health with Stachybotrys chartarum. Our specialized bio-hazard crews use surgical negative-air containment and industrial HEPA systems to eradicate toxic black mold from your Ambler home with clinical precision."
-          image="https://images.unsplash.com/photo-1590644365607-1c5a519a7a37?auto=format&fit=crop&q=80"
+          subtitle="Is your basement hiding toxic spores? Our independent certified inspectors use medical-grade air sampling and infrared mapping to reveal hidden mold colonies in your Ambler home with absolute scientific certainty."
+          image="https://images.unsplash.com/photo-1503708928676-1cb796a0891e?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <ToxicBlackMoldInfo />
+        <BasementMoldTestingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
@@ -136,7 +136,3 @@ const Index = () => {
 };
 
 export default Index;
-
-
-
-
