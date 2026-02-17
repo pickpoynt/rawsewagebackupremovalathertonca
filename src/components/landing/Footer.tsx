@@ -11,13 +11,13 @@ const Footer = () => {
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">The Village</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Electronic Leak Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Village Fix</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Concrete Floor Leak Pros</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              The Village's premier electronic leak specialists.
-              Providing non-invasive leak detection and foundation repair throughout Oklahoma City Metro.
+              The Village's foundation and concrete repair experts.
+              Providing structural water leak repair and floor sealing throughout Oklahoma City Metro.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -35,11 +35,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 font-heading text-white">Our Services</h4>
             <ul className="space-y-4">
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Electronic Leak Detection</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Leak Pinpointing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Foundation Repair</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Acoustic Testing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Thermal Analysis</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Concrete Leak Repair</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Injection</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Foundation Sealing</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Pressure Relief</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Crack Evaluation</a></li>
             </ul>
           </div>
 
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-8">
-            <h4 className="text-lg font-bold mb-8 font-heading text-white uppercase tracking-widest">24/7 LEAK HOTLINE</h4>
+            <h4 className="text-lg font-bold mb-8 font-heading text-white uppercase tracking-widest">24/7 REPAIR HOTLINE</h4>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center shrink-0">
@@ -85,11 +85,11 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} ELECTRONIC LEAK DETECTION THE VILLAGE PROS.
+            © {new Date().getFullYear()} CONCRETE FLOOR LEAK REPAIR THE VILLAGE PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
-            <span>Licensed & Insured Plumbing & Leak Specialists</span>
+            <span>Licensed & Insured Foundation & Repair Specialists</span>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Electronic Leak Detection The Village Pros",
+          "name": "Concrete Floor Leak Repair The Village Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",

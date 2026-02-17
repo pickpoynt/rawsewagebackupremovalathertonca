@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                ELECTRONIC LEAK DETECTION THE VILLAGE PROS
+                CONCRETE FLOOR LEAK REPAIR THE VILLAGE PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-emerald-600">The Village Service</span>
+                Schedule <span className="text-emerald-600">The Village Repair</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your property in The Village from hidden water damage. Our electronic detection team provides non-invasive solutions throughout OKC Metro.
+                Protect your home's foundation. Our concrete repair team provides structural solutions for under-slab and floor water leaks throughout OKC Metro.
               </p>
 
               <div className="space-y-8">
@@ -25,7 +25,7 @@ const Contact = () => {
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">24/7 LEAK HOTLINE</p>
+                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">REPAIR HOTLINE</p>
                     <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-emerald-600 transition-colors">
                       (877) 792-1410
                     </a>
@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Expert Diagnostics</p>
-                    <p className="text-xl font-bold text-slate-900">Digital Acoustic Tech</p>
+                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Structural Grading</p>
+                    <p className="text-xl font-bold text-slate-900">High-Pressure Injection</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">The Village & OKC Metro</p>
+                    <p className="text-xl font-bold text-slate-900">The Village & North OKC</p>
                   </div>
                 </div>
               </div>

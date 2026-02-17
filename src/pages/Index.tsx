@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import TheVillageLeakInfo from "@/components/landing/TheVillageLeakInfo";
+import ConcreteFloorRepairInfo from "@/components/landing/ConcreteFloorRepairInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,18 +15,18 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Electronic leak detection The Village OK</title>
-        <meta name="description" content="Electronic leak detection The Village OK - Professional non-invasive leak detection services in The Village, Oklahoma. Using digital acoustic technology and infrared. Call (877) 792-1410." />
-        <meta name="keywords" content="Electronic leak detection The Village OK, The Village Oklahoma leak detection, plumbing leak detection The Village, hidden leak pinpointing OKC Metro" />
-        <link rel="canonical" href="https://electronic-leak-detection-the-village.com/" />
+        <title>Concrete floor water leak repair The Village OK</title>
+        <meta name="description" content="Concrete floor water leak repair The Village OK - Expert repair for slab and foundation water leaks through concrete floors in The Village, OK. Structural-grade solutions. Call (877) 792-1410." />
+        <meta name="keywords" content="Concrete floor water leak repair The Village OK, The Village Oklahoma slab repair, concrete foundation leak The Village, basement floor leak repair OKC" />
+        <link rel="canonical" href="https://concrete-floor-water-leak-repair-the-village.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Electronic Leak Detection The Village Pros",
-            "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
+            "name": "Concrete Floor Leak Repair The Village Pros",
+            "image": "https://images.unsplash.com/photo-1590060411636-f78a73a9856f?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
@@ -47,7 +47,7 @@ const Index = () => {
               "name": "The Village, OK"
             },
             "priceRange": "$$$",
-            "description": "Specialized electronic leak detection and pinpointing services in The Village, Oklahoma. Advanced acoustic technology and thermal imaging diagnostics."
+            "description": "Specialized concrete floor water leak repair and foundation plumbing services in The Village, Oklahoma. Utilizing high-pressure injection and structural sealing."
           })}
         </script>
 
@@ -56,10 +56,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Electronic Leak Detection",
+            "serviceType": "Concrete Floor Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Electronic Leak Detection The Village Pros",
+              "name": "Concrete Floor Leak Repair The Village Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
@@ -68,27 +68,27 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "The Village Leak Detection Catalog",
+              "name": "The Village Concrete Repair Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electronic Slab Leak Detection"
+                    "name": "Concrete Floor Sealing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Water Leak Pinpointing"
+                    "name": "Slab Leak Hydraulic Injection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Thermal Imaging Diagnostics"
+                    "name": "Foundation Water Management"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Electronic leak detection The Village OK - Electronic Leak Detection The Village Pros" />
-        <meta property="og:description" content="Expert electronic leak detection in The Village, OK. Non-invasive technology to pinpoint hidden water leaks quickly." />
+        <meta property="og:title" content="Concrete floor water leak repair The Village OK - Concrete Floor Leak Repair The Village Pros" />
+        <meta property="og:description" content="Expert concrete floor and foundation water leak repair in The Village, OK. Rapid structural solutions to protect your home's integrity." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://electronic-leak-detection-the-village.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://concrete-floor-water-leak-repair-the-village.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1590060411636-f78a73a9856f?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Electronic leak detection The Village OK
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Electronic Leak Detection The Village Pros</span>
+              Concrete floor water leak repair The Village OK
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Concrete Floor Leak Repair The Village Pros</span>
             </>
           }
-          subtitle="The Village's authority in electronic leak pinpointing. We use cutting-edge technology to find hidden leaks under slabs, behind walls, and in foundations. Serving Oklahoma City Metro with zero destruction."
-          image="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1516216628859-9bccecad13fc?auto=format&fit=crop&q=80"
-          badge="THE VILLAGE LEAK SPECIALISTS"
+          subtitle="The Village's specialist in concrete foundation and floor water leak repair. We stop intrusion at the source with structural-grade injections and industrial sealants. Protecting Village homes for years."
+          image="https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80"
+          badge="THE VILLAGE CONCRETE REPAIR PROS"
         />
         <Services />
         <WhyUs />
-        <TheVillageLeakInfo />
+        <ConcreteFloorRepairInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
