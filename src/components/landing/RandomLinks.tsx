@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const links = [
   { text: "Dallas Plumbing Support", url: "https://dallasplumber.vercel.app", internal: false },
   { text: "San Antonio Plumbing Experts", url: "https://sanantonioplumbing.vercel.app", internal: false },
-  { text: "San Francisco Plumbing Pros", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },
-  { text: "Charlotte Plumbing Specialists", url: "https://plumbercharlottenc.vercel.app/", internal: false },
+  { text: "Tulsa Plumbing Specialists", url: "https://plumbertulsaok.vercel.app/", internal: false },
+  { text: "Lansing Sewer Repair", url: "https://sewerlinerepairlansingmi.vercel.app/", internal: false },
 ];
 
 const RandomLinks = () => {

@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Plumbing Excellence</span>
+            High-Pressure <span className="text-indigo-600">Drain Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Anoka property owners trust us for master-grade residential and commercial plumbing solutions. From historic pipe restoration to modern system upgrades.
+            Lakewood property owners trust us for industrial-grade hydro jetting and technical pipe restoration. We clear the toughest South Sound blockages.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Emergency Repairs",
-              description: "24/7 rapid response for burst pipes, major leaks, and sewer backups. Our Anoka-based teams arrive fully equipped to stabilize and repair your system immediately.",
+              title: "Hydro Jetting",
+              description: "4000 PSI high-pressure water scouring that clinical cleans the inner walls of your pipes, removing grease, sludge, and debris completely.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Drain Cleaning",
-              description: "Deep-clearing services utilizing hydro-jetting and motorized augers to remove stubborn obstructions and restore full flow to your home's drainage network.",
+              title: "Sewer Scouring",
+              description: "Comprehensive main line cleaning that restores full diameter flow and prevents recurring backups in Lakewood residential systems.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Video Inspection",
-              description: "High-definition sewer and drain line diagnostics allowing our technicians to pinpoint root intrusion or structural failures with millimeters of accuracy.",
+              title: "Root Removal",
+              description: "Technical root cutting nozzles and high-pressure flushing that eliminates invasive tree roots from your sewer network without excavation.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Water Heaters",
-              description: "Expert installation and technical repair for tank-style and tankless water heating systems throughout the Anoka County region.",
+              title: "Video Inspection",
+              description: "Precision pipeline diagnostics using HD camera technology to identify structural failures and verify cleaning results in real-time.",
               link: "#contact"
             }
           ].map((service, index) => (
