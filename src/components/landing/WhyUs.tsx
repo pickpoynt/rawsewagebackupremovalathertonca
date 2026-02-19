@@ -67,9 +67,9 @@ const WhyUs = () => {
               <img
                 src="https://storage.googleapis.com/test-media-u/u/3b0a6af5-8167-42c6-94e8-89f5bc7013fc.png"
                 alt="Southlake Electronic Leak Detection"
-                className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                className="w-full h-full object-cover opacity-60 transition-all duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-indigo-900/40 mix-blend-overlay group-hover:bg-transparent transition-all" />
+              <div className="absolute inset-0 bg-indigo-900/20 mix-blend-multiply group-hover:bg-transparent transition-all" />
 
               <div className="absolute bottom-8 left-8 right-8 bg-slate-900/90 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
                 <p className="text-indigo-400 font-bold uppercase tracking-widest text-xs mb-3">Foundation Crisis?</p>
