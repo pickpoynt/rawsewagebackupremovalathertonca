@@ -1,4 +1,4 @@
-import { ArrowRight, Drill, Zap, Camera, Waves } from "lucide-react";
+import { ArrowRight, Drill, Zap, Camera, Waves, Search } from "lucide-react";
 
 const Services = () => {
   return (
@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            High-Pressure <span className="text-indigo-600">Drain Solutions</span>
+            Advanced <span className="text-indigo-600">drain cleaning eugene</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Lakewood property owners trust us for industrial-grade hydro jetting and technical pipe restoration. We clear the toughest South Sound blockages.
+            Eugene property owners trust us for technical precision and high-torque drain clearing. We conquer the toughest Willamette Valley blockages.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Hydro Jetting",
-              description: "4000 PSI high-pressure water scouring that clinical cleans the inner walls of your pipes, removing grease, sludge, and debris completely.",
+              title: "Drain Unclogging",
+              description: "High-torque mechanical clearing that completely removes blockages from kitchen sinks, toilets, and showers in Eugene homes.",
+              link: "#contact"
+            },
+            {
+              icon: Search,
+              title: "Sewer Scouring",
+              description: "Precision line descaling that restores full-diameter flow to your main sewer lines, preventing messy backups and slow drains.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Sewer Scouring",
-              description: "Comprehensive main line cleaning that restores full diameter flow and prevents recurring backups in Lakewood residential systems.",
-              link: "#contact"
-            },
-            {
-              icon: Camera,
-              title: "Root Removal",
-              description: "Technical root cutting nozzles and high-pressure flushing that eliminates invasive tree roots from your sewer network without excavation.",
+              title: "Root Clearing",
+              description: "Technical mechanical root removal that eliminates invasive tree roots from your sewer network without the need for excavation.",
               link: "#contact"
             },
             {
               icon: Waves,
               title: "Video Inspection",
-              description: "Precision pipeline diagnostics using HD camera technology to identify structural failures and verify cleaning results in real-time.",
+              description: "High-definition camera diagnostics to pinpoint the exact location of clogs and verify that your pipes are perfectly clean.",
               link: "#contact"
             }
           ].map((service, index) => (

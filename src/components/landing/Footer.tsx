@@ -1,4 +1,4 @@
-import { Phone, Facebook, Twitter, Instagram, Linkedin, Hammer, MapPin, Locate } from "lucide-react";
+import { Phone, MapPin, Locate } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,19 +11,19 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Lakewood Hydro Jetting</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Eugene Drain Cleaning</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Lakewood's specialized high-pressure drain cleaning experts. We provide master-grade hydro jetting, root removal, and main line scouring across Pierce County.
+              Eugene's specialized technical drain cleaning experts. We provide professional unclogging, root removal, and line descaling across Lane County.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Hydro Jetting", "Sewer Line Scouring", "Root Removal", "Main Line Cleaning"].map((item) => (
+              {["Drain Unclogging", "Sewer Scouring", "Root Removal", "Main Line Cleaning"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Lakewood Dr SW<br />
-                  Lakewood, WA 98499
+                  1010 Willamette St<br />
+                  Eugene, OR 97401
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Lakewood Hydro Jetting Pros. All rights reserved. Pierce County Master Technicians.
+            © {new Date().getFullYear()} Eugene Drain Cleaning Pros. All rights reserved. Lane County Professional Technicians.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Lakewood Hydro Jetting Pros",
+          "name": "Eugene Drain Cleaning Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Lakewood Dr SW",
-            "addressLocality": "Lakewood",
-            "addressRegion": "WA",
-            "postalCode": "98499",
+            "streetAddress": "1010 Willamette St",
+            "addressLocality": "Eugene",
+            "addressRegion": "OR",
+            "postalCode": "97401",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "47.1718",
-            "longitude": "-122.5185"
+            "latitude": "44.0521",
+            "longitude": "-123.0868"
           },
           "telephone": "+18777921410",
-          "url": "https://lakewood-hydrojetting.com/"
+          "url": "https://eugene-draincleaning-pros.com/"
         })}
       </script>
     </footer>

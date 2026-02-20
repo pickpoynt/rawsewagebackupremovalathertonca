@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            LAKEWOOD HYDRO JETTING PROS
+            EUGENE DRAIN CLEANING PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Schedule <span className="text-indigo-600">Lakewood Jetting</span>
+            Schedule <span className="text-indigo-600">drain cleaning eugene</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Lakewood property's drains. Our South Sound team provides technical, industrial-grade solutions for sewer line clearing and root removal throughout Pierce County.
+            Protect your Eugene property's plumbing health. Our Lane County team provides technical, non-invasive solutions for drain clearing and root management throughout Eugene and Springfield.
           </p>
 
           <div className="space-y-8">
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">WA STATE LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Pierce County Certified</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">OR STATE LICENSED</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Lane County Certified</p>
               </div>
             </div>
 
@@ -46,14 +46,14 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Lakewood & Pierce County</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Eugene & Springfield, OR</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
-          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Jetting</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request service</h3>
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
@@ -76,11 +76,11 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Required</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                <option>Hydro Jetting</option>
+                <option>Drain Cleaning</option>
                 <option>Sewer Line Scouring</option>
                 <option>Root Removal</option>
-                <option>Main Line Diagnostics</option>
-                <option>Emergency Backup Response</option>
+                <option>Pipe Camera Inspection</option>
+                <option>Emergency Unclogging</option>
               </select>
             </div>
             <div className="space-y-2">
@@ -92,10 +92,10 @@ const Contact = () => {
               ></textarea>
             </div>
             <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
-              Get Technical Quote
+              Get Quote Now
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *24/7 Priority diagnostics for Pierce County property emergencies
+              *24/7 Priority response for Eugene area property emergencies
             </p>
           </form>
         </div>

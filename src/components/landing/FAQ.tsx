@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Is hydro jetting safe for older Lakewood pipes?",
-    answer: "Yes, when performed by experts. Our Lakewood technicians calibrate the pressure (PSI) based on your pipe material and age, ensuring a deep clean without risking structural damage."
+    question: "Is drain cleaning safe for older Eugene homes?",
+    answer: "Yes, our technical drain cleaning eugene processes are specifically adapted for the older plumbing found in Eugene's historic neighborhoods. We use mechanical tools that clear clogs without damaging aging pipe walls."
   },
   {
-    question: "How does hydro jetting differ from snaking?",
-    answer: "While snaking only creates a hole through a blockage, hydro jetting scours the entire inner wall of the pipe. This removes grease and scale buildup, preventing fast recurring clogs."
+    question: "Why should I choose professional cleaning over chemicals?",
+    answer: "Store-bought chemical cleaners are often corrosive and bad for the environment. Professional drain cleaning eugene provides a more thorough, mechanical removal of blockages that is safer for your pipes and Oregon's water systems."
   },
   {
-    question: "Can hydro jetting remove tree roots?",
-    answer: "Absolutely. Our high-pressure jetting nozzles are engineered to sever and flush out invasive roots—a common issue for Lakewood properties with mature landscaping."
+    question: "Can you remove invasive tree roots from my pipes?",
+    answer: "Yes. Eugene's lush tree canopy often leads to root intrusion. We use specialized mechanical clearing tools to effectively remove roots from your sewer lines without having to dig up your yard."
   },
   {
-    question: "How often should I have my main line jetted?",
-    answer: "For residential properties in Pierce County, we recommend maintenance jetting every 24-36 months to prevent sludge buildup and identify potential sewer line failures early."
+    question: "How long does a typical drain cleaning service take?",
+    answer: "Most standard drain cleaning eugene services are completed within 1 to 2 hours, depending on the severity and location of the blockage within your Eugene property."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Lakewood Jetting <span className="text-indigo-600">FAQ</span>
+            Eugene Drain <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about high-pressure water jetting and drain cleaning in Lakewood, Washington.
+            Answers to common questions about professional drain cleaning eugene and plumbing maintenance in Lane County.
           </p>
         </div>
 

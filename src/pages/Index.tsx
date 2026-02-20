@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import LakewoodHydroJettingInfo from "@/components/landing/LakewoodHydroJettingInfo";
+import EugeneDrainCleaningInfo from "@/components/landing/EugeneDrainCleaningInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -15,33 +15,33 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>professional hydro jetting lakewood wa | Lakewood Hydro Jetting Pros</title>
-        <meta name="description" content="professional hydro jetting lakewood wa - Master-grade sewer and drain cleaning in Lakewood, WA. High-pressure jetting for stubborn blockages. Call (877) 792-1410." />
-        <meta name="keywords" content="professional hydro jetting lakewood wa, Lakewood drain cleaning, sewer line scouring Pierce County, root removal WA" />
-        <link rel="canonical" href="https://lakewood-hydrojetting.com/" />
+        <title>drain cleaning eugene - Eugene Drain Cleaning Pros</title>
+        <meta name="description" content="drain cleaning eugene - High-tech professional drain cleaning eugene. Expert plumbers clearing blockages in Eugene, OR. Call 877-792-1410 for 24/7 service." />
+        <meta name="keywords" content="drain cleaning eugene, Eugene plumber, drain clearing Lane County, sewer service OR, root removal Eugene" />
+        <link rel="canonical" href="https://eugene-draincleaning-pros.com/" />
 
         {/* Structured Data Schemas */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Lakewood Hydro Jetting Pros",
-            "image": "/professional-hydro-jetting-lakewood-wa.jpeg",
-            "@id": "https://lakewood-hydrojetting.com/",
-            "url": "https://lakewood-hydrojetting.com/",
+            "name": "Eugene Drain Cleaning Pros",
+            "image": "/1.jpeg",
+            "@id": "https://eugene-draincleaning-pros.com/",
+            "url": "https://eugene-draincleaning-pros.com/",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Lakewood Dr SW",
-              "addressLocality": "Lakewood",
-              "addressRegion": "WA",
-              "postalCode": "98499",
+              "streetAddress": "1010 Willamette St",
+              "addressLocality": "Eugene",
+              "addressRegion": "OR",
+              "postalCode": "97401",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "47.1718",
-              "longitude": "-122.5185"
+              "latitude": "44.0521",
+              "longitude": "-123.0868"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -65,38 +65,38 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Hydro Jetting Service",
+            "serviceType": "Drain Cleaning Service",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Lakewood Hydro Jetting Pros"
+              "name": "Eugene Drain Cleaning Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Lakewood, WA"
+              "name": "Eugene, OR"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Hydro Jetting Services",
+              "name": "Drain Cleaning Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sewer Line Hydro Jetting"
+                    "name": "Main Line Cleaning"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Main Line Scouring"
+                    "name": "Kitchen Sink Unclogging"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Root Intrusion Removal"
+                    "name": "Root Removal Service"
                   }
                 }
               ]
@@ -105,11 +105,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="professional hydro jetting lakewood wa | Lakewood Hydro Jetting Pros" />
-        <meta property="og:description" content="professional hydro jetting lakewood wa - Master-grade sewer and drain cleaning in Lakewood, WA." />
+        <meta property="og:title" content="drain cleaning eugene - Eugene Drain Cleaning Pros" />
+        <meta property="og:description" content="drain cleaning eugene - Expert professional drain cleaning eugene. High-tech solutions for local homeowners." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://lakewood-hydrojetting.com/" />
-        <meta property="og:image" content="/professional-hydro-jetting-lakewood-wa.jpeg" />
+        <meta property="og:url" content="https://eugene-draincleaning-pros.com/" />
+        <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
       <Header />
@@ -117,18 +117,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              professional hydro jetting <br />
-              <span className="text-white drop-shadow-sm">lakewood wa</span>
+              drain cleaning <br />
+              <span className="text-white drop-shadow-sm">eugene</span>
             </>
           }
-          subtitle="Lakewood's elite high-pressure drainage specialists. We deploy master-grade 4000 PSI hydro jetting technology to restore sewer flow and eliminate root intrusion throughout Pierce County."
-          image="/professional-hydro-jetting-lakewood-wa.jpeg"
-          overlayImage="https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&q=80"
-          badge="PIERCE COUNTY JETTING SPECIALISTS"
+          subtitle="Eugene's elite technical drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout Lane County's unique landscapes."
+          image="/1.jpeg"
+          overlayImage="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80"
+          badge="LANE COUNTY DRAINAGE SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <LakewoodHydroJettingInfo />
+        <EugeneDrainCleaningInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

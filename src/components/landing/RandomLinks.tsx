@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const links = [
-  { text: "Dallas Plumbing Support", url: "https://dallasplumber.vercel.app", internal: false },
-  { text: "San Antonio Plumbing Experts", url: "https://sanantonioplumbing.vercel.app", internal: false },
-  { text: "Tulsa Plumbing Specialists", url: "https://plumbertulsaok.vercel.app/", internal: false },
-  { text: "Lansing Sewer Repair", url: "https://sewerlinerepairlansingmi.vercel.app/", internal: false },
+  { text: "San Francisco CA Plumbers", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },
+  { text: "Charlotte NC Plumbing Team", url: "https://plumbercharlottenc.vercel.app/", internal: false },
+  { text: "West Seneca NY Plumber Services", url: "https://plumberwestsenecany.vercel.app/", internal: false },
+  { text: "Fort Collins Sewer Repair", url: "https://sewerlinerepairfortcollins.vercel.app/", internal: false },
 ];
 
 const RandomLinks = () => {
