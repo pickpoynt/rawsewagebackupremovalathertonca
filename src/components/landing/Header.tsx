@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Hammer, Phone } from "lucide-react";
+import { Menu, X, ShieldAlert, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -33,14 +33,14 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 group cursor-pointer">
             <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-indigo-600 rotate-0" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <Hammer className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-500"}`} />
+              <ShieldAlert className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-500"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                Klamath Falls Drain
+                Atherton Sewer
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                Pros <span className="text-[10px] opacity-70">Oregon</span>
+                Cleaning <span className="text-[10px] opacity-70">Pros</span>
               </span>
             </div>
           </div>
@@ -64,13 +64,13 @@ const Header = () => {
           {/* Contact Actions */}
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">24/7 EMERGENCY LINE</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60 text-center">ELITE EMERGENCY LINE</span>
               <a href="tel:8777921410" className="text-xl font-bold hover:text-blue-500 transition-colors tracking-tighter">
                 (877) 792-1410
               </a>
             </div>
             <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700 shadow-indigo-900/20" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="#contact">Request Service</a>
+              <a href="#contact">Elite Care</a>
             </Button>
           </div>
 
@@ -105,12 +105,12 @@ const Header = () => {
               Contact
             </a>
             <div className="pt-6">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 EMERGENCY LINE</p>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 ELITE LINE</p>
               <a href="tel:8777921410" className="text-3xl font-bold text-blue-500 block mb-6">
                 (877) 792-1410
               </a>
               <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="#contact">Book Now</a>
+                <a href="#contact">Elite Service</a>
               </Button>
             </div>
           </div>

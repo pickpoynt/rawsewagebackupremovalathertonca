@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Is drain cleaning safe for older Klamath Falls homes?",
-    answer: "Yes, our technical drain cleaning klamath falls processes are specifically adapted for the older plumbing found in Klamath's historic areas. We use mechanical tools that clear clogs without damaging aging pipe walls."
+    question: "How fast should I react to a basement sewer backup in Atherton?",
+    answer: "Immediate reaction is critical. Category 3 sewage water contains harmful pathogens that begin penetrating porous surfaces and structural materials instantly. Our Atherton emergency team typically arrives within 45 minutes to begin extraction."
   },
   {
-    question: "Why should I choose professional cleaning over chemicals?",
-    answer: "Store-bought chemical cleaners are often corrosive and harmful to the Klamath Basin's delicate ecosystem. Professional drain cleaning klamath falls provides a more thorough, mechanical removal of blockages that is safer for your pipes and Oregon's water systems."
+    question: "Is your cleaning process safe for luxury basement finishes?",
+    answer: "Yes. Our basement sewer backup cleaning Atherton CA specialists use specific clinical-grade sanitizers designed for high-end materials like marble, bespoke cabinetry, and luxury masonry, ensuring decontamination without damage."
   },
   {
-    question: "Can you remove invasive tree roots from my pipes?",
-    answer: "Yes. Southern Oregon's mature tree canopy often leads to root intrusion. We use specialized mechanical clearing tools to effectively remove roots from your sewer lines without having to dig up your yard."
+    question: "Do you provide documentation for insurance claims?",
+    answer: "Absolutely. We provide comprehensive forensic documentation, including moisture maps, decontamination logs, and thermal imagery to support your insurance claim for your Atherton residence."
   },
   {
-    question: "How long does a typical drain cleaning service take?",
-    answer: "Most standard drain cleaning klamath falls services are completed within 1 to 2 hours, depending on the severity and location of the blockage within your Klamath property."
+    question: "What is your decontamination standard?",
+    answer: "We adhere to IICRC S500 and S520 standards for sewage and biohazard remediation, using EPA-registered broad-spectrum disinfectants to ensure a clinical level of hygiene in your living space."
   }
 ];
 
@@ -29,12 +29,12 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
+          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Critical Intelligence</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Klamath Falls Drain <span className="text-indigo-600">FAQ</span>
+            Atherton Sewer <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about professional drain cleaning klamath falls and plumbing maintenance in Klamath County.
+            Essential information for Atherton property owners facing a basement sewage emergency or failure.
           </p>
         </div>
 

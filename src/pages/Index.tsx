@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import KlamathFallsDrainCleaningInfo from "@/components/landing/KlamathFallsDrainCleaningInfo";
+import AthertonSewerBackupInfo from "@/components/landing/AthertonSewerBackupInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -15,33 +15,33 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>drain cleaning klamath falls - Klamath Falls Drain Cleaning Pros</title>
-        <meta name="description" content="drain cleaning klamath falls - Professional high-tech drain cleaning klamath falls. Expert plumbers clearing blockages in Klamath Falls, OR. Call 877-792-1410 for 24/7 service." />
-        <meta name="keywords" content="drain cleaning klamath falls, Klamath Falls plumber, drain clearing Klamath County, sewer service OR, root removal Klamath Falls" />
-        <link rel="canonical" href="https://klamathfallsdraincleaningpros.com/" />
+        <title>basement sewer backup cleaning Atherton CA - Atherton Sewer Backup Cleaning Pros</title>
+        <meta name="description" content="basement sewer backup cleaning Atherton CA - Professional basement sewer backup cleaning Atherton CA. Expert decontamination and restoration in San Mateo County. Call 877-792-1410 for 24/7 elite service." />
+        <meta name="keywords" content="basement sewer backup cleaning Atherton CA, Atherton sewer cleanup, sewage extraction San Mateo County, basement flood remediation CA" />
+        <link rel="canonical" href="https://atherton-sewer-backup-cleaning.com/" />
 
         {/* Structured Data Schemas */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Klamath Falls Drain Cleaning Pros",
-            "image": "/1.jpeg",
-            "@id": "https://klamathfallsdraincleaningpros.com/",
-            "url": "https://klamathfallsdraincleaningpros.com/",
+            "name": "Atherton Sewer Backup Cleaning Pros",
+            "image": "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&q=80",
+            "@id": "https://atherton-sewer-backup-cleaning.com/",
+            "url": "https://atherton-sewer-backup-cleaning.com/",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "500 Main St",
-              "addressLocality": "Klamath Falls",
-              "addressRegion": "OR",
-              "postalCode": "97601",
+              "streetAddress": "91 Ashfield Rd",
+              "addressLocality": "Atherton",
+              "addressRegion": "CA",
+              "postalCode": "94027",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "42.2249",
-              "longitude": "-121.7817"
+              "latitude": "37.4613",
+              "longitude": "-122.1977"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -65,38 +65,38 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Drain Cleaning Service",
+            "serviceType": "Sewer Backup Cleaning Service",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Klamath Falls Drain Cleaning Pros"
+              "name": "Atherton Sewer Backup Cleaning Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Klamath Falls, OR"
+              "name": "Atherton, CA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Drain Cleaning Services",
+              "name": "Sewer Backup Cleanup Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Main Line Cleaning"
+                    "name": "Sewage Extraction"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Kitchen Sink Unclogging"
+                    "name": "Basement Decontamination"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Root Removal Service"
+                    "name": "Biohazard Remediation"
                   }
                 }
               ]
@@ -105,11 +105,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="drain cleaning klamath falls - Klamath Falls Drain Cleaning Pros" />
-        <meta property="og:description" content="drain cleaning klamath falls - Expert professional drain cleaning klamath falls. High-tech solutions for local homeowners." />
+        <meta property="og:title" content="basement sewer backup cleaning Atherton CA - Atherton Sewer Backup Cleaning Pros" />
+        <meta property="og:description" content="basement sewer backup cleaning Atherton CA - Premium sewage backup cleanup and restoration in Atherton. Discreet and clinical-grade emergency response." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://klamathfallsdraincleaningpros.com/" />
-        <meta property="og:image" content="/1.jpeg" />
+        <meta property="og:url" content="https://atherton-sewer-backup-cleaning.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -117,18 +117,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              drain cleaning <br />
-              <span className="text-white drop-shadow-sm">klamath falls</span>
+              basement sewer <br />
+              <span className="text-white drop-shadow-sm uppercase">backup cleaning Atherton CA</span>
             </>
           }
-          subtitle="Southern Oregon's mountain-grade drainage specialists. We deploy precision high-torque cleaning technology to restore drain flow and eliminate root intrusion throughout the Klamath Basin's unique environments."
-          image="/1.jpeg"
-          overlayImage="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80"
-          badge="KLAMATH BASIN DRAINAGE SPECIALISTS"
+          subtitle="Atherton's premier biohazard restoration firm. We deploy hospital-grade sanitization and forensic-level moisture control to restore your luxury basement after a sewer catastrophe."
+          image="https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&q=80"
+          badge="ATHERTON ELITE RESTORATION"
         />
         <Services />
         <WhyUs />
-        <KlamathFallsDrainCleaningInfo />
+        <AthertonSewerBackupInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
